@@ -1,9 +1,25 @@
 aid: matchstick-ventures
 name: Matchstick Ventures
-description: 'Matchstick Ventures is a company surfaced as a portfolio company of foundry-group and added
-  to the API Evangelist network as a stub for enrichment. Sector: venture-capital. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Matchstick Ventures is an early-stage venture capital fund investing
+  across the North and Rockies (the Upper Midwest and Mountain West). The firm backs
+  seed and pre-seed founders where innovative ideas, large markets, and diverse "underdog"
+  founders intersect, describing itself as a catalyst for its founders, partners, and
+  regional startup communities. Its portfolio spans consumer, commerce, developer,
+  and B2B software companies including Soona, StackHawk, Spekit, Branch, Inspectorio,
+  Airspace Link, Fiveable, Parallax, River, Tilt, Base, Ordermark, and Upsie.'
 url: https://raw.githubusercontent.com/api-evangelist/matchstick-ventures/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/5d51c802f82313750a511c1e/613fc2c1d8da5022ba29751f_Natty%26RyanMatchstick.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Venture Capital
+- Early Stage
+- Seed
+- Pre-Seed
+- Startups
+- Investment
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +44,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/matchstick-ventures-domain-security.yml
 - type: Website
   url: https://www.matchstickventures.com
+- type: About
+  url: https://www.matchstickventures.com/about
+- type: Team
+  url: https://www.matchstickventures.com/team
+- type: Portfolio
+  url: https://www.matchstickventures.com/companies
+- type: Blog
+  url: https://www.matchstickventures.com/news
+- type: Contact
+  url: https://www.matchstickventures.com/connect
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 1
+  pass: local-v1
