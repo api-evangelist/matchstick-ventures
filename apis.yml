@@ -8,6 +8,17 @@ description: 'Matchstick Ventures is an early-stage venture capital fund investi
   and B2B software companies including Soona, StackHawk, Spekit, Branch, Inspectorio,
   Airspace Link, Fiveable, Parallax, River, Tilt, Base, Ordermark, and Upsie.'
 url: https://raw.githubusercontent.com/api-evangelist/matchstick-ventures/refs/heads/main/apis.yml
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
