@@ -30,6 +30,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://www.matchstickventures.com', status: 301, note: 'declared website redirects to https://www.matchstick.vc/ — a different registrable domain (matchstickventures.com -> matchstick.vc), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://cdn.prod.website-files.com/5d51c802f82313750a511c1e/613fc2c1d8da5022ba29751f_Natty%26RyanMatchstick.jpg
 x-type: company
 x-source: vc-portfolio
